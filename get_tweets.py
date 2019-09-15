@@ -5,10 +5,10 @@ from tqdm import tqdm,trange
 from dateutil.relativedelta import relativedelta
 
 
-consumerKey = "0dS9NjpnigQFJZuXyjCogecw0" # (API key)
-consumerSecret = "b2pf0DTvxnNsiOeAjgy6B6PPDb6J42W4jDNeHeyHEWnyw0ttJr" # (API secret key)
-accessToken = "764037378-QCU4yGtyN4C9ZTK9hgg76Kr7JmAL1QiiZqA2moMC" # (Access token)NEW
-accessTokenSecret = "HyVapADFE9cYRl72wRPPUXrRu8E1TKAUU1G9JltPg8m0O" # (Access token secret)NEW
+consumerKey = "*********" # (API key)
+consumerSecret = ""*********"" # (API secret key)
+accessToken = ""*********"-"*********"" # (Access token)NEW
+accessTokenSecret = ""*********"" # (Access token secret)NEW
 
 def get_owner_tweets(handles,startDate,endDate,pages=20):
     global consumerKey, consumerSecret, accessToken, accessTokenSecret
